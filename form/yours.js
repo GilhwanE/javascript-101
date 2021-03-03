@@ -5,7 +5,6 @@ const nextbutton = document.querySelector('.next-button');
 const options = document.querySelectorAll('.dropdown-option');
 const button = document.querySelector('.next-button');
 
-console.log(button);
 
 droptoggle.addEventListener('click' , () => {
     menu.classList.toggle('show');
@@ -23,14 +22,3 @@ options.forEach(function(item){
             button.removeAttribute('disabled');
         })
 });
-
-//when item click, the selected option must be shown in the menu.
-
-// When option selected then, next-button is allowed. 
-// function optionselect () {
-//     option
-//     droptoggle.classList.add('selected');
-//     button.classList.remove('disabled');
-// }
-
-// optionselect();
