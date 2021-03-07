@@ -19,6 +19,9 @@ options.forEach(function(item){
             const value = e.currentTarget.textContent.trim();
             droptoggle.textContent = value;
             droptoggle.classList.add('selected');
-            button.removeAttribute('disabled');
+            button.removeAttribute('disabled'); 
+            console.log(value);
+           
         })
 });
+
